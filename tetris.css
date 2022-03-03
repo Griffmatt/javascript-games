@@ -1,0 +1,64 @@
+
+
+.grid{
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-wrap:wrap;
+    background-color: rgb(139, 139, 139);
+    border: 1px black solid;
+}
+
+.grids{
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+}
+
+.gridSquare{
+    width:28px;
+    height:28px;
+    border: 1px rgb(179, 179, 179) solid;
+}
+
+.shape-grid{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-wrap:wrap;
+    margin-left: 15px;
+    background-color: rgb(149, 149, 149);
+}
+
+.green{
+    background-color: rgb(9, 109, 9);  
+}
+
+.red{
+    background-color: rgb(207, 27, 27);  
+}
+
+.blue{
+    background-color: rgb(36, 36, 212); 
+}
+
+.yellow{
+    background-color: rgb(230, 230, 18);  
+}
+
+.orange{
+    background-color: rgb(228, 148, 0); 
+}
+
+.purple{
+    background-color: rgb(121, 25, 121);
+}
+
+.tetro{
+    width:20px;
+    height:20px;
+    border-top: 5px  solid rgba(255, 255, 255, 0.4);
+    border-left: 5px  solid rgba(255, 255, 255, 0.4);
+    border-bottom: 5px  solid rgba(0, 0, 0, 0.4);
+    border-right: 5px  solid rgba(0, 0, 0, 0.4);
+}
